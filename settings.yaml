@@ -1,0 +1,180 @@
+telegram:
+  token: 2070621478:AAHWxlmSswb-yY1xCft2mAhJjEPwerum5hg
+  useFirstNameInsteadOfUsername: false
+  colonAfterSenderName: false
+  skipOldMessages: true
+  sendEmojiWithStickers: false
+discord:
+  useNickname: false
+  token: ODk2OTA5ODM3NTAwMjkzMTcw.YWN-YQ.3iD_gOmcIXSyCd7phrAdc634-uQ
+  skipOldMessages: true
+  replyLength: 100
+  maxReplyLines: 2
+bridges:
+  - name: discussionbridge
+    direction: both
+    telegram:
+      chatId: -1001274435883
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '815920612802953286'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodaesthetics
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '814927277116358686'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodaudio
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '814926638709735424'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodcomfy
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '814928935828848711'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodgondola
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '814631066752385024'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodhistoryphilosophy
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '814631001389006919'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodinspiration
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '784656395969757185'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodoc
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '784661119301189663'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodpuzzlesmath
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '864813565125984256'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodvibing
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '815179578678312970'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+  - name: moodvirtualexperience
+    direction: d2t
+    telegram:
+      chatId: -1001452791933
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      relayCommands: true
+      crossDeleteOnDiscord: true
+    discord:
+      channelId: '784656459912577045'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+
+debug: false
